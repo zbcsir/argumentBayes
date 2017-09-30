@@ -151,8 +151,6 @@ public class SuperParent extends AbstractClassifier {
 		
 		// Debugging 1: Show the auxiliary array assignment
 		if (m_Debug) {
-			System.out.println("\n\nBuilding A Simple Tree-Augmented Naive Bayes "
-					+ "Classifier (Simple TAN1A)");
 			System.out.println("The Training Dataset:");
 			System.out.println("m_TotalAttValues  = " + m_TotalAttValues);
 			System.out.println("m_NumClasses      = " + m_NumClasses);
